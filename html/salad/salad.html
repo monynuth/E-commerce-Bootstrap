@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./salad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <!-- start Nav -->
+       <nav class="navbar navbar-expand-lg bg-light p-5">
+        <div class="container w-100">
+            <a href="#"><h1 class="text-dark text-decoration-none fw-bold me-5"><i class="fa-solid fa-bowl-food bg-warning p-3 rounded-circle"></i></h1></a>
+              <h1 class="fw-bold me-5 d-lg-none">MAXI</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-dark"><i class="fa-solid fa-bars fs-1"></i></span>
+            </button>
+            <div class=" collapse navbar-collapse  d-lg-block d-lg-flex justify-content-between " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold " href="/home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold text-primary" href="../salad/salad.html"><i class="text-primary fa-solid fa-leaf"></i> Salad</a></li>
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold" href="../khmer/khmer.html"><i class="fa-solid fa-fish"></i> Khmer</a></li>
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold" href="../chinese/chinese.html"> <i class="fa-solid fa-hippo"></i> Chinese</a></li>
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold" href="../cake/cake.html"> <i class="fa-solid fa-cake-candles"></i> Cake</a></li>
+                    <li class="nav-item"><a class="nav-link  text-uppercase fw-bold" href="../drink/drink.html"> <i class="fa-solid fa-martini-glass-citrus"></i> Drink</a></li>
+                </ul>
+                <div class="" >
+                  <button class="btn border border-dark me-3 text-uppercase fw-bold">Sign Up</button>
+                  <button class="btn border border-dark   text-uppercase fw-bold">Login</button>
+              </div>
+            </div>
+       
+        </div>
+      </nav> 
+<!-- End Nav -->
+      <!-- Sart search -->
+        <div class="d-lg-block container  mt-3 d-lg-flex align-items-center justify-content-between ">
+          <div class="searchFood  container d-flex d-lg-flex w-100  align-items-center d-lg-flex  w-75 ">
+              <input id="search_Input" class=" border-0  w-100 p-3  bg-light" type="text" style="height: 100%;" placeholder="search..."><i id="seachIcon" style="height: 100%;" class=" cursor-pointer bg-light p-2  fs-1 fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div id="Selectprice" class="container w-25">
+              <form action="">
+                <select class="form-select p-3" aria-label="Default select example">
+                  <option selected>Choose Price</option>
+                  <option value="1">$5 - $25</option>
+                  <option value="2">$26 - $49</option>
+                  <option value="3">$50 - $99</option>
+                  <option value="3">$100 - $199</option>
+                  <option value="3">$200 - $300</option>
+                </select>
+              </form>
+          </div>
+        </div>
+       <!-- ENd search -->
+
+
+
+<!-- Start container -->
+
+
+<!-- =========================================================== -->
+ <div class="container"><h1 class="fw-bold mt-5">SALAD</h1></div>
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="../../image/salad001.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Khmer Salad</h5>
+            <p class="card-text">Khmer Food Traditional made for cambodian becuase smell and test is not for everyone</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+            <button class="btn btn-warning fw-bold">Order</button>
+            <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/salad002.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SrokKhmer Salad</h5>
+            <p class="card-text">Mexico Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/salad003.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dubai Salad</h5>
+            <p class="card-text">Thai Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/salad004.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Japeness Salad</h5>
+            <p class="card-text">Germany Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/prohok.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Prohok Ktis Khmer</h5>
+            <p class="card-text">Khmer Food Traditional made for cambodian becuase smell and test is not for everyone</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+            <button class="btn btn-warning fw-bold">Order</button>
+            <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://blog.amigofoods.com/wp-content/uploads/2020/12/tacos-authentic-mexican-food.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mexico Burger</h5>
+            <p class="card-text">Mexico Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/tomyum.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TomYum Thailand</h5>
+            <p class="card-text">Thai Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/germanyfood.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Germany Fried Checken</h5>
+            <p class="card-text">Germany Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/prohok.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Prohok Ktis Khmer</h5>
+            <p class="card-text">Khmer Food Traditional made for cambodian becuase smell and test is not for everyone</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+            <button class="btn btn-warning fw-bold">Order</button>
+            <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://blog.amigofoods.com/wp-content/uploads/2020/12/tacos-authentic-mexican-food.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mexico Burger</h5>
+            <p class="card-text">Mexico Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/tomyum.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TomYum Thailand</h5>
+            <p class="card-text">Thai Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../image/germanyfood.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Germany Fried Checken</h5>
+            <p class="card-text">Germany Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>      <div class="col">
+        <div class="card">
+          <img src="../../image/prohok.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Prohok Ktis Khmer</h5>
+            <p class="card-text">Khmer Food Traditional made for cambodian becuase smell and test is not for everyone</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+            <button class="btn btn-warning fw-bold">Order</button>
+            <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://blog.amigofoods.com/wp-content/uploads/2020/12/tacos-authentic-mexican-food.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mexico Burger</h5>
+            <p class="card-text">Mexico Food Traditional made for everyone becuase smell and test is  for everyone in the world</p>
+            <div class=" d-lg-block  d-md-flex align-items-center">
+              <button class="btn btn-warning fw-bold">Order</button>
+              <button class="btn btn-light fw-bold ms-3">Review ★★★★☆</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+<!-- End container -->
+<!-- start Footer -->
+ <div class="container-fluid bg-light">
+ <div class="container d-md-flex justify-content-between mt-5 bg-light">
+    <div class="FooterLeft pt-5">
+      <div class="d-flex  align-items-center">
+        <a href="#"><h1 class="text-dark text-decoration-none fw-bold me-5"><i class="fa-solid fa-bowl-food bg-warning p-4 "></i></h1></a>
+        <span class=" fs-5 fw-bold">MAXI</span>
+      </div>
+      <div class="d-flex align-items-center">
+        <a href="#"><h1 class="text-dark text-decoration-none fw-bold me-5"><i class="fa-solid fa-utensils bg-warning p-4 "></i></h1></a>
+        <span class=" fs-5 fw-bold">PANDA</span>
+      </div>
+      <div class="d-flex  align-items-center">
+        <a href="#"><h1 class="text-dark text-decoration-none fw-bold me-5"><i class="fa-solid fa-bowl-food bg-warning p-4 "></i></h1></a>
+        <span class=" fs-5 fw-bold">WOWNOW</span>
+      </div>
+    </div>
+    <div class="FooterMid bg-light  d-flex flex-column pt-5 ">
+      <span class="fs-3 fw-bold ">About Us</span>
+      <ul class="p-0">
+        <li class="pb-2"><a href="">Our Food</a></li>
+        <li class="pb-2"><a href="">Resterant Location</a></li>
+        <li class="pb-2"><a href="">Customer Feedback</a></li>
+        <li class="pb-2"><a href="">Community Discussions</a></li>
+        <li class="pb-2"><a href="">OpenCollective</a></li>
+        <li class="pb-2"><a href="">Swag Store</a></li>
+        <li class="pb-2"><a href="">CDN Network Map </a></li>
+        <li class="pb-2"><a href="">UptimeRobot</a></li>
+        <li class="pb-2"><a href="">API Documentation</a></li>
+
+      </ul>
+    </div>
+    <div class="FooterRight bg-light pt-5">
+      <span class="fs-3 fw-bold">For More Information</span>
+      <div class="w-100 d-flex justify-content-between "><h1><i class="fa-brands fa-google-play p-3 fs-1"></i><i class="fa-brands fa-app-store-ios p-3 fs-1"></i><i class="fa-solid fa-blog p-3 fs-1"></i></h1></div>
+    <span class="fs-3 fw-bold">Follow Us on</span>
+    <div class=""><h1><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram p-3"></i><i class="fa-brands fa-tiktok p-3"></i><i class="fa-brands fa-twitter p-3"></i></h1></div>
+  </div>
+    
+</div>
+</div>
+<!-- End footer -->
+</body>
+</html>
